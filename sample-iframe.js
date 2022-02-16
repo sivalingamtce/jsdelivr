@@ -19,7 +19,7 @@ function zcOpen(hpUrl = '') {
   let closeHpBtn = document.createElement('button');
   closeHpBtn.innerHTML = 'Close';
   closeHpBtn.classList.add('zc-close-btn')
-  closeHpBtn.onclick = removeHp;
+  closeHpBtn.onclick = zcClose;
   iframeContainer.appendChild(closeHpBtn);
 
 
